@@ -1,0 +1,65 @@
+.timer-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.timer {
+  width: 600px;
+  height: 600px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: whitesmoke;
+  border-color: rgb(36, 36, 36);
+  border-width: 20px;
+  border-style: solid;
+  border-radius: 40px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+}
+
+
+.timer-canvas {
+  width: 90%;
+  height: 90%;
+  border-radius: 50%;
+  background-color: whitesmoke;
+}
+
+.controls {
+  display: flex;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: rgb(36, 36, 36);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #b30000;
+}
+
+button:active {
+  transform: scale(0.98);
+}
+
+.time-display {
+  text-align: center;
+  align-items: center;
+  font-weight: bold;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+p {
+  color: #000;
+  font-size: large;
+}
